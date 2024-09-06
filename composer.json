@@ -1,0 +1,16 @@
+{
+    "name": "mfitrahrmd/tour",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mfitrahrmd\\Tour\\": "src/"
+        },
+        "classmap": [
+            "classes"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^11.21",
+        "laravel/serializable-closure": "^1.3"
+    }
+}
